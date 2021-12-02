@@ -299,27 +299,27 @@ class Cube:
             if current_step_string=="R":
                 self.R()
             if current_step_string=="L":
-                self.L_r()
+                self.L()
             if current_step_string=="U":
                 self.U()
             if current_step_string=="D":
-                self.D_r()
+                self.D()
             if current_step_string=="F":
                 self.F()
             if current_step_string=="B":
-                self.B_r()
+                self.B()
             if current_step_string=="r":
                 self.R_r()
             if current_step_string=="l":
-                self.L()
+                self.L_r()
             if current_step_string=="u":
                 self.U_r()
             if current_step_string=="d":
-                self.D()
+                self.D_r()
             if current_step_string=="f":
                 self.F_r()
             if current_step_string=="b":
-                self.B()
+                self.B_r()
             if current_step_string == "x":
                 self.cube_method_flipper("x")
             if current_step_string == "y":
@@ -572,15 +572,15 @@ class Cube:
                 if current_step_string=="R":
                     self.R()
                 if current_step_string=="L":
-                    self.L_r()
+                    self.L()
                 if current_step_string=="U":
                     self.U()
                 if current_step_string=="D":
-                    self.D_r()
+                    self.D()
                 if current_step_string=="F":
                     self.F()
                 if current_step_string=="B":
-                    self.B_r()
+                    self.B()
                 if current_step_string=="r":
                     self.R_r()
                 if current_step_string=="l":
