@@ -1,0 +1,18 @@
+R - R - kód
+R_r - - 3R
+
+L - - 3L_r
+L_r - L - kód
+
+U - U -kód
+U_r - - 3U
+
+D - - 3D_r
+D_r - D - kód
+
+F - F - kód
+F_r - - 3F
+
+B - - 3B_r
+B_r - B - kód
+
