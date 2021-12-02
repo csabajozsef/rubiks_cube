@@ -5,6 +5,7 @@ from pygame.locals import *
 from OpenGL.GL import *
 from OpenGL.GLU import *
 
+
 """
    A kis kockák Class-a, a kis alap cubie-k forgatásait tartalmazza
 """
@@ -638,6 +639,11 @@ class Cube:
                         self.L_r()
                     if event.key == pygame.K_6:
                         self.R_r()
+                    if event.key == pygame.K_m:
+                        self.cube_method_mixer()
+                    if event.key == pygame.K_s:
+                        pass
+
 
                     if event.key == pygame.K_SPACE:
                         pygame.quit()
@@ -1038,6 +1044,7 @@ def check_first_row(check_cube,cube):
 def cubie_checking(c, list):
     """
         A listában megadott cubie-kat ellenőrzi helyét és színét
+        A list-ben egy listát adunk be amiben (pos,color) formában van az infó
     """
     l = c.cube_method_get_cubie_pos_name_color()
     false = []
