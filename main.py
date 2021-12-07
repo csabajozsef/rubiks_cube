@@ -1,8 +1,14 @@
 from cube import *
-from solver import *
+from algoritmus import *
+# from solver import *
 """
     A Rubik-kocka animációja 
 """
+# cubeba import algoritmus és csak cubeot használunk
+# main -> cube és algoritmus
+#
+# algoritmusba cube import nem kell
+# helyette cube-ból a nem cube methodok átkerülnek az algoritmusba
 
 c = Cube() #Cube object létrehozása
 c.cube_method_all_side_loader() #Cube kiszínezése

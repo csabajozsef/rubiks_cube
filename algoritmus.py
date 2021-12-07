@@ -12,7 +12,6 @@ import numpy as np
 
 """
 
-
 # Első fehér cubie berakása ( fehér-kék cubie )
 def white_cross_first(c, x=-1, y=3, z=4):
     """
@@ -1767,3 +1766,30 @@ def cube_method_seventh_step(c):
 # ([2, 0, 0], np.array([5, 2, 6]))
 # ([2, 0, 2], np.array([5, 2, 4]))
 # ([0, 0, 0], np.array([1, 2, 6]))([0, 0, 2], np.array([1, 2, 4]))
+
+
+
+def cube_solver(c):
+    white_cross_first(c)
+    white_cross_second(c)
+    white_cross_third(c)
+    white_cross_fourth(c)
+    cube_method_firstcorner(c)
+    cube_method_secondcorner(c)
+    cube_method_thirdcorner(c)
+    cube_method_fourthcorner(c)
+    cube_method_middle1(c)
+    cube_method_middle2(c)
+    cube_method_middle3(c)
+    cube_method_middle4(c)
+    cube_method_yellow_cross(c)
+    cube_method_fifth_step1(c)
+    cube_method_fifth_step2(c)
+    cube_method_fifth_step3(c)
+    cube_method_sixth_step(c)
+    cube_method_seventh_step(c)
+
+    c.cube_method_flipper("y")
+    c.cube_method_flipper("y")
+    c.cube_method_flipper("x")
+    c.cube_method_flipper("x")

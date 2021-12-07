@@ -819,6 +819,7 @@ class Cube:
 """
     Segédfüggvények az algoritmushoz és a megjelenítéshez és ellenőzéshez
 """
+
 def adjust_color_middle_to_face(c, middlecolor, side_to_flip_to, middlesidecolor, middle_side_to_flip_to):
     '''
     input: middle cubie szín, hova akarjuk, middle cubie szín, hova akarjuk
